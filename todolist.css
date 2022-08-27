@@ -1,0 +1,59 @@
+#container{ /* container as a class was not having a appropriate width */
+	margin:200px auto ;
+	width:500px;
+	box-shadow:5px 5px 3px rgba(0,0,0,0.5) ;/* important */
+	background: #f7f7f7;
+}
+.effect{
+	color:gray;
+	text-decoration: line-through;
+}
+h1{
+	margin:0;
+	padding:10px 10px;
+    background: #2980b9;
+    color:white;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+div.com{
+ background: #fff;
+ line-height: 40px;
+  height: 40px; 
+  color:#666;
+  padding-left: 10px;
+  font-weight:500;
+  font-size:18px;
+ /*3 digit rgb code is converted to 6 digit rgb color code by replicating the digits*/
+}
+div.com : nth-child(2n){
+	background: #000;
+}
+
+input{
+	font-size:18px;
+	background: #f7f7f7;
+	width:100%;
+	padding:13px 0px 13px 20px;
+	border :none;
+	box-sizing: border-box;
+	/*if we do not include box sizing then make width=100%*/
+}
+
+input:focus{    /*IMPORTANT */
+ background:white ;
+ color:#2980b9;
+ outline:none;
+ border:3px solid #2980b9;
+ font-size:15px;
+}
+
+body{
+	background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.glyphicon-plus{
+	float : right;
+}
